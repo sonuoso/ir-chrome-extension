@@ -1,0 +1,98 @@
+html {
+   width:400px;
+   max-height: 600px;
+}
+
+body {
+    margin: auto;
+    height:fit-content
+}
+
+footer {
+    margin: auto;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction:row;
+}
+
+/* .flex-container > div{
+    padding:0px 10px;
+} */
+
+.open-sans-lt {
+ font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+   font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-reg {
+ font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-med {
+ font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-semi {
+ font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.button-check {
+    background-color:rgb(30, 145, 255);
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-check:hover {
+    background-color:rgb(30, 120, 250);
+}
+
+.button-change {
+    background-color:rgb(33, 185, 105);
+    color: white;
+    text-align: center;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-change:hover {
+    background-color:rgb(33, 160, 100);
+}
+
+.hr-200 {
+    border-top: 1px solid rgb(200, 200, 200);
+    display: block;
+}
+
+.hr-235 {
+    border-top: 2px solid rgb(235, 235, 235);
+    display: block;
+}

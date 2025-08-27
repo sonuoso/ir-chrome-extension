@@ -1,15 +1,15 @@
 {
     "name":"altAct",
     "description":"Copy from aria-label to title on CTAs",
-    "version":"1.0",
+    "version":"1.0.0",
     "manifest_version":3,
     "icons":{
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
     },
     "action": {
         "default_popup":"main.html",
-        "default_icon": "icon128.png"
+        "default_icon": "images/icon128.png"
     }
 }
