@@ -8,6 +8,12 @@
         "48": "images/icon48.png",
         "128": "images/icon128.png"
     },
+    "permissions":["scripting","activeTab","tabs"] 
+    ,
+    "background": {
+        "service-worker":"scripts/background.js"
+    }
+    ,
     "action": {
         "default_popup":"main.html",
         "default_icon": "images/icon128.png"
